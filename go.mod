@@ -3,7 +3,6 @@ module github.com/whiteblock/genesis
 go 1.13
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/Microsoft/hcsshim v0.8.7 // indirect
 	github.com/Shopify/logrus-bugsnag v0.0.0-20230117174420-439a4b8ba167 // indirect
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412 // indirect
@@ -13,7 +12,7 @@ require (
 	github.com/containerd/continuity v0.0.0-20191214063359-1097c8bae83b // indirect
 	github.com/docker/cli v0.0.0-20200211170139-b52debd9318f
 	github.com/docker/distribution v2.8.0+incompatible
-	github.com/docker/docker v1.4.2-0.20191106232431-31abc6c089eb
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/docker-credential-helpers v0.6.3 // indirect
 	github.com/docker/go v1.5.1-1 // indirect
 	github.com/docker/go-connections v0.4.0
@@ -28,6 +27,8 @@ require (
 	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/joonix/log v0.0.0-20200409080653-9c1d2ceb5f1d
 	github.com/mitchellh/mapstructure v1.3.2 // indirect
+	github.com/moby/sys/mount v0.3.3 // indirect
+	github.com/moby/term v0.5.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2 // indirect
 	github.com/opencontainers/runc v1.1.5 // indirect
@@ -44,10 +45,11 @@ require (
 	github.com/whiteblock/definition v0.0.0-20200724170201-eca0f9033dc6
 	github.com/whiteblock/utility v0.0.0-20200608214746-1060924406d9
 	github.com/xlab/handysort v0.0.0-20150421192137-fb3537ed64a1 // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 	gopkg.in/dancannon/gorethink.v3 v3.0.5 // indirect
 	gopkg.in/fatih/pool.v2 v2.0.0 // indirect
 	gopkg.in/gorethink/gorethink.v3 v3.0.5 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
+	gotest.tools/v3 v3.5.0 // indirect
 	vbom.ml/util v0.0.0-20180919145318-efcd4e0f9787 // indirect
 )
